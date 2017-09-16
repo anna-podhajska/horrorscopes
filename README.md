@@ -3,6 +3,7 @@
 install:
 
 ```sh
+clone this repo
 npm install
 knex migrate:latest
 knex seed:run
@@ -10,6 +11,14 @@ knex seed:run
 ```
   `npm run dev` for bundling, watch and nodemon
   `npm start` only runs server (setup for heroku)
+
+## Learning goals
+- React, Redux, Express, Knex, API, testing, deployment on Heroku
+
+### User stories
+As a user I want to 
+- see horror horoscopes for different star signs
+- add a user and see horrorscope 
 
 ### Build by
 - Ania
